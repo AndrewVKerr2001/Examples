@@ -1,0 +1,29 @@
+Author: Andrew Kerr
+Date: Oct 29 2021
+Platform: Linux (School)
+
+Special Steps:
+	Used the Makefile defined in this same directory to compile (uses local base.mk automatically).
+	
+Command Line Used:
+	make
+	./GroceryList
+
+Changelog:
+	Oct 18: Error in GroceryList::operator-=, failed to remove right element.
+	Oct 19: Fixed Error
+	Oct 20: Tested fix on school computers.
+	Oct 25: Added test cases to main.cpp and ran them, all but test #6 succeeded (forgot to reassign the array variable to new array).
+	Oct 27: Added comments and tidied up the code format / removed extra comments that were no longer needed.
+	Oct 29: Ran final tests on school computer, code should pass all test cases.
+
+Bugs:
+	Oct 18 [FIXED]: operator-= failed to remove element from array.  
+	Oct 25 [FIXED]: resize function failed to properly reassign array due to missing assignment operation.
+	Oct 27 [NONE]: No imeditate present errors in code.
+	
+Summary:
+	I reused the code we had done in class, tweaked the typeing and added some functionality.
+	I added:
+		- The ability for the array to resize itself (transfering all entries).
+		- The ability for the array to be appended to, removed from and searched.

@@ -1,0 +1,14 @@
+Captain 1
+FIrstOfficer 1
+ScienceOfficer 2
+Navigator 3
+CommunicationsOfficer 4
+Engineers 10
+Security 20
+Doctor 2
+Nurse 5
+Custodian 10
+Robot 3
+Chef 2
+Translators 3
+RedShirt 100
