@@ -1,0 +1,19 @@
+Author: Andrew Kerr
+Date: 8/28/2022
+Platform: Windows(g++ so should be Linux compatible).
+Bugs:
+ I first started working on a block based system but found issues and inconsistencies.
+ Although I would have prefered to use this system as it would cut down on any
+ issues with having a file based database. I gave up so I went with a multi file
+ approach.
+
+Summary:
+ So like I said in the Bugs portion I just decided to write a text entry dump.
+ Essentially my program takes the input then just dumps it right into the 
+ approapriate file. This allows for the data to persist through the program
+ closing. And since I call flush and close once the file is done it should
+ immediately work.
+
+Makefile:
+ Use 'make' to make the project. Use 'make clean' to completely clean up 
+ the project (removes compiled code, target exe and the associated file structure). 
