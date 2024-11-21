@@ -1,0 +1,16 @@
+Author: Andrew Kerr
+Date: 04/26/2022
+Platform: Windows(G++ Toolchain)
+Bugs:
+    [X] Deallocation happens way too early with linked lists.
+    [ ] Possible that some combination's won't work, its mostly 
+         depends on the starting location and so some combination might not work correctly.
+
+Summary:
+    Takes in a filename which when loaded contains several connected nodes. From this the program finds the minimum cost path.
+
+NOTE:
+    Uses the command line for its input, simply provide the filename as the only argument.
+
+Makefile:
+    As always enter make TARGET=... for custom filename, otherwise a.exe/a.out/a depending on architecture.
