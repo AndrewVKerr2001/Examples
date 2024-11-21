@@ -1,6 +1,0 @@
-Minion 100
-Banana 6
-EvilGenius 1
-Kevin 1
-SecretLair 5
-IneptAgent 12
