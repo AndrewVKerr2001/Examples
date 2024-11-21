@@ -1,5 +1,5 @@
 # Examples
-A repository with a collection of C/C++ projects that I made during my college courses. Imported from my laptop much later down the line. These projects are listed in chronological order.
+A repository with a collection of C/C++ projects that I made during my college courses. Imported from my laptop much later down the line. This repository does __not__ represent all of the projects that I have done in my college courses, some projects may have been lost during computer transfers or left & lost on the college campus computer network after my graduation. Some projects may be recreated as I get time to work on them so that this can become a more complete repository and reflection of my programming capabilities and style.
 
 ## CompSci1
 ### Name: Computer Science 1
